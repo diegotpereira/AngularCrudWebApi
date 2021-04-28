@@ -1,3 +1,3 @@
 # AngularCrudWebApi
 
-Utilizar servidro Back-end para rodar essa aplicação.
+Utilizar servidor Back-End para rodar essa aplicação.
