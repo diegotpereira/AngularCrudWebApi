@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ConsoleReporter } from 'jasmine';
 import { TutorialService } from 'src/app/services/tutorial.service';
 @Component({
   selector: 'app-tutorials-list',
@@ -69,5 +68,4 @@ removeAllTutorials(): void{
         }
       );
   }
-}
 }

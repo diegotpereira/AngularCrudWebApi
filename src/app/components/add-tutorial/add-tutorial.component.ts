@@ -16,7 +16,7 @@ export class AddTutorialComponent implements OnInit {
 
   submitted = false;
 
-  constructor(private TutorialService: TutorialService) { }
+  constructor(private tutorialService: TutorialService) { }
 
   ngOnInit(): void {
   }
@@ -27,7 +27,7 @@ export class AddTutorialComponent implements OnInit {
       description: this.tutorial.description
     };
 
-    this.TutorialService.create(data)
+    this.tutorialService.create(data)
       .subscribe(
         response => {
           console.log(response);
